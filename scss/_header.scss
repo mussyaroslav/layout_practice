@@ -1,0 +1,72 @@
+.header {
+  height: 97px;
+  background: #fff;
+}
+
+.header__main {
+  @include flex-center-sb;
+  height: 97px;
+}
+
+.header__logo__div {
+  @include flex-center;
+}
+
+.header__nav {
+  @include flex-center;
+  height: 97px;
+}
+
+.nav__link {
+  @include flex-center;
+  height: 100%;
+  text-decoration: none;
+  margin: 0 12px;
+  color: #000;
+}
+
+.nav__link:hover {
+  transition: all .12s linear;
+  color: $color__main;
+  border-top: 4px solid $color__main;
+  padding-bottom: 4px;
+}
+
+.header__buttons {
+  @include flex-center-sb;
+}
+
+.first__button {
+  background-color: $color__main;
+  height: 40px;
+  border-radius: 3px;
+  margin-right: 14px;
+}
+
+.nav__button__link__div {
+  @include flex-center-sb;
+  height: 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.nav__button__svg {
+  @include flex-center;
+  padding: 0 14px;
+}
+
+.first__button__text {
+  padding-right: 19px;
+}
+
+.second__button {
+  background-color: $color__main__dark;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.second__button__text {
+  padding-right: 23px;
+}
