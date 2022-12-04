@@ -66,11 +66,13 @@
 .about__company__left__img {
   @include flex-center;
   justify-content: flex-start;
+  padding: 25px 0;
 }
 
 .about__company__left__subtitle {
   @include flex-center;
   justify-content: flex-end;
+  padding: 25px 0;
   width: 100%;
   p {
     width: 305px;
