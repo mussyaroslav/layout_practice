@@ -5,12 +5,12 @@
   top: 0;
 }
 
-.header__main {
+.header-main {
   @include flex-center-sb;
   height: 97px;
 }
 
-.header__logo__div {
+.header-logo__div {
   @include flex-center;
 }
 
@@ -38,14 +38,14 @@
   @include flex-center-sb;
 }
 
-.first__button {
+.first-button {
   background-color: $color__main;
   height: 40px;
   border-radius: 3px;
   margin-right: 14px;
 }
 
-.nav__button__link__div {
+.nav-button-link__div {
   @include flex-center-sb;
   height: 40px;
   text-decoration: none;
@@ -54,21 +54,21 @@
   font-weight: 700;
 }
 
-.nav__button__svg {
+.nav-button__svg {
   @include flex-center;
   padding: 0 14px;
 }
 
-.first__button__text {
+.first-button__text {
   padding-right: 19px;
 }
 
-.second__button {
+.second-button {
   background-color: $color__main__dark;
   height: 40px;
   border-radius: 3px;
 }
 
-.second__button__text {
+.second-button__text {
   padding-right: 23px;
 }
