@@ -1,8 +1,8 @@
-.our__services__main {
+.our-services-main {
   padding: 65px 0 55px 0;
 }
 
-.our__services__header {
+.our-services__header {
   @include flex-center-center;
   h1 {
     color: $color__text__dark;
@@ -11,13 +11,13 @@
   }
 }
 
-.our__services__blocks {
+.our-services-blocks {
   @include flex-center-sb;
   flex-wrap: wrap;
   margin-top: 45px;
 }
 
-.our__services__div {
+.our-services__div {
   width: 49%;
   height: 268px;
   background-position: center;
@@ -29,23 +29,23 @@
   padding: 50px;
 }
 
-.services__first {
+.services-first {
   background-image: url(../img/Group\ 19.png);
 }
 
-.services__second {
+.services-second {
   background-image: url(../img/Group\ 20.png);
 }
 
-.services__third {
+.services-third {
   background-image: url(../img/Group\ 18.png);
 }
 
-.services__four {
+.services-four {
   background-image: url(../img/Group\ 21.png);
 }
 
-.our__services__title {
+.our-services__title {
   @include flex-center;
   margin-left: 20px;
   h2 {
@@ -55,13 +55,13 @@
   }
 }
 
-.our__services__div__title {
+.our-services__div-title {
   @include flex-center;
   width: 400px;
   margin-bottom: 30px;
 }
 
-.our__services__div__subtitle {
+.our-services__div-subtitle {
   width: 303px;
   p {
     font-size: 16px;
