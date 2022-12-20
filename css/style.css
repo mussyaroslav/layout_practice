@@ -467,6 +467,11 @@ p, h1, h2, h3, h4, h5, h5 {
     margin-bottom: 10px;
   }
 }
+@media (max-width: 575px) {
+  .about-company-main-left {
+    padding: 0 15px;
+  }
+}
 .portfolio__main-div {
   display: flex;
   align-items: center;

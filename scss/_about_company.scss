@@ -216,3 +216,9 @@
     margin-bottom: 10px;
   }
  }
+
+ @media (max-width: 575px) {
+  .about-company-main-left {
+    padding: 0 15px;
+  }
+ }
