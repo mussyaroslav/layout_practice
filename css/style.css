@@ -464,7 +464,6 @@ p, h1, h2, h3, h4, h5, h5 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .okna-right__div {
@@ -650,6 +649,9 @@ p, h1, h2, h3, h4, h5, h5 {
   .okna-left__subtitle-svg-div p {
     max-width: 250px;
     width: 100%;
+  }
+  .okna-left__subtitle-div {
+    flex-wrap: wrap;
   }
 }
 .faq__main-div {
