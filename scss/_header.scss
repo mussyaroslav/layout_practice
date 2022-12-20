@@ -72,3 +72,28 @@
 .second-button__text {
   padding-right: 23px;
 }
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 1300px) {
+  .header__nav {
+    display: none;
+  }
+
+  .burger {
+    display: block;
+    margin-right: 44px;
+  }
+}
+
+@media (max-width: 767px) {
+  .burger {
+    margin-right: 10px;
+  }
+
+  .first-button__text, .second-button__text {
+    display: none;
+  }
+}
