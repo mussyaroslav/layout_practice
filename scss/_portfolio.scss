@@ -19,3 +19,17 @@
   padding: 0 101px 70px 101px;
   width: 100%;
 }
+
+@media (max-width: 1300px) {
+  .portfolio__img-div img {
+    width: 50%;
+    object-fit: cover;
+    padding: 15px;
+  }
+
+  .portfolio__img-div {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+}

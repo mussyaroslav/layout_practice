@@ -257,3 +257,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 575px) {
+  .okna-left__title h1 {
+    font-size: 24px;
+  }
+}

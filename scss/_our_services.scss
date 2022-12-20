@@ -69,3 +69,44 @@
     font-weight: 400;
   }
 }
+
+@media (max-width: 1300px) {
+  .our-services-blocks {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .our-services__div {
+    max-width: 595px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .our-services__div:last-child {
+    margin: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .our-services__div {
+    padding: 15px;
+  }
+
+  .our-services__div-title {
+    width: 100%;
+  }
+
+  .our-services__div-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 320px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .our-services__title h2 {
+    font-size: 20px;
+  }
+}
