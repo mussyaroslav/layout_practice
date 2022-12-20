@@ -1,0 +1,86 @@
+.faq__main-div {
+  background: $color__main;
+  border-radius: 7px;
+}
+
+.faq__title-div {
+  @include flex-center-center;
+  padding: 40px 0 50px;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+  }
+}
+
+.faq-main {
+  padding: 0 101px 63px 101px;
+}
+
+.faq-input {
+  appearance: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.faq-title {
+  font-size: 18px;
+  color: $color__text__dark;
+  display: block;
+  cursor: pointer;
+  padding: 30px 19px 30px 30px;
+  background-color: #EEEEF3;
+  position: relative;
+  border-radius: 3px;
+}
+
+.faq-text {
+  font-size: 14px;
+  color: black;
+  display: none;
+  padding: 0 19px 19px 30px;
+  background-color: white;
+}
+
+.faq-title:hover {
+  background-color: white;
+  transition: .12s all linear;
+  color: $color__main;
+}
+
+.faq-input:checked~.faq-title {
+  background-color: white;
+  border-radius: 3px 3px 0 0;
+}
+
+.faq-input:checked~.faq-text {
+  display: block;
+  border-radius: 0 0 3px 3px;
+}
+
+.faq-title::after {
+  content: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='17' viewBox='0 0 30 17' fill='none'%3E%3Cpath d='M1 1.5L15 15.5L29 1.5' stroke='%232F2F51' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  display: block;
+  position: absolute;
+  top: 30px;
+  right: 19px;
+  }
+
+.faq-input:checked~.faq-title::after {
+  transform: rotate(180deg);
+  top: 26px;
+}
+
+.faq-title:hover::after {
+  content: url("data:image/svg+xml, %3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='17' viewBox='0 0 30 17' fill='none'%3E%3Cpath d='M1 1.5L15 15.5L29 1.5' stroke='%23EF7F1A' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.faq-item {
+  margin-bottom: 14px;
+}
+
+.faq-item:last-child {
+  margin-bottom: 0;
+}
