@@ -63,7 +63,6 @@
 
 .okna-left__subtitle-div {
   @include flex-center-sb;
-  flex-wrap: wrap
 }
 
 .okna-right__div {
@@ -252,5 +251,9 @@
       max-width: 250px;
       width: 100%;
     }
+  }
+
+  .okna-left__subtitle-div {
+    flex-wrap: wrap;
   }
 }
