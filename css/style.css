@@ -779,6 +779,7 @@ p, h1, h2, h3, h4, h5, h5 {
 .faq__main-div {
   background: #EF7F04;
   border-radius: 7px;
+  margin-bottom: 75px;
 }
 
 .faq__title-div {
@@ -868,5 +869,62 @@ p, h1, h2, h3, h4, h5, h5 {
 @media (max-width: 767px) {
   .faq-main {
     padding: 0 15px 63px;
+  }
+}
+.footer {
+  background-color: #2F2F51;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 52px 0;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+.footer-left div {
+  margin-right: 22px;
+}
+.footer-left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.footer-right a {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+}
+.footer-right a:first-child {
+  margin-right: 22px;
+}
+
+@media (max-width: 960px) {
+  .footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .footer-right {
+    flex-direction: column;
+  }
+  .footer-right a:first-child {
+    margin-right: 0;
+    margin-bottom: 22px;
   }
 }/*# sourceMappingURL=style.css.map */
